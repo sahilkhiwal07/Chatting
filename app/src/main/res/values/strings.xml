@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Chatting</string>
+
+    <string name="label_message">Message</string>
+    <string name="label_chat">Chat</string>
+    <string name="label_profile">Profile</string>
+
+    <string name="chat_msg">Text Message</string>
+
+    <string name="user_name">Enter Name</string>
+    <string name="user_email">Enter Email</string>
+    <string name="user_password">Enter Password</string>
+    <string name="user_confirm_password">Confirm Password</string>
+
+    <string name="alert_title">Sign Out</string>
+    <string name="alert_message">Do you want to Log Out?</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="alert_ok">Log Out</string>
+
+    <string name="btn_signup">Sign Up</string>
+    <string name="btn_login">Log In</string>
+    <string name="button_save">Save</string>
+
+</resources>
