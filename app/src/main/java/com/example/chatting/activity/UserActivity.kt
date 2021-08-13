@@ -56,7 +56,7 @@ class UserActivity : AppCompatActivity() {
                     Glide.with(this@UserActivity).load(currentUser.profileImage).into(img_profile)
                 }
 
-                // if you put " == " then only login user show in list
+                // if we use " == " then only login user show in list
                 // to show all users except login user use " != "
                 for (data in snapshot.children) {
                     val user = data.getValue(User::class.java)

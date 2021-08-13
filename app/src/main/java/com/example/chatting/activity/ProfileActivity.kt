@@ -61,9 +61,7 @@ class ProfileActivity : AppCompatActivity() {
             }
         })
 
-        // Problem in back button
         img_back_profile.setOnClickListener {
-//            onBackPressed()
             startActivity(Intent(this@ProfileActivity, UserActivity::class.java))
             finish()
         }
